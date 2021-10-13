@@ -1,0 +1,259 @@
+# Spanish translations for PROJECT.
+# Copyright (C) 2020 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2020.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2020-08-15 08:28+0100\n"
+"PO-Revision-Date: 2020-09-13 12:54+0100\n"
+"Language: es\n"
+"Language-Team: es <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+"Last-Translator: \n"
+"X-Generator: Poedit 2.4.1\n"
+
+#: practice/__init__.py:20
+msgid "Please login to access this page."
+msgstr "Inicie sesión para acceder a esta página."
+
+#: practice/email.py:19
+msgid "[Shell] Reset Your Password"
+msgstr "[Shell] Restablecer su contraseña"
+
+#: practice/forms.py:8 practice/forms.py:14 practice/forms.py:31
+msgid "Username"
+msgstr "Nombre de usuario"
+
+#: practice/forms.py:9 practice/forms.py:16 practice/forms.py:54
+msgid "Password"
+msgstr "Contraseña"
+
+#: practice/forms.py:10
+msgid "Remember Me"
+msgstr "Recordarme"
+
+#: practice/forms.py:11 practice/templates/login.html:5
+msgid "Sign In"
+msgstr "Ingresar"
+
+#: practice/forms.py:15 practice/forms.py:50
+msgid "Email"
+msgstr "Email"
+
+#: practice/forms.py:17 practice/forms.py:55
+msgid "Repeat Password"
+msgstr "Repetir Contraseña"
+
+#: practice/forms.py:18 practice/templates/register.html:5
+msgid "Register"
+msgstr "Registrarse"
+
+#: practice/forms.py:23 practice/forms.py:43
+msgid "Please use a different username."
+msgstr "Por favor use un nombre de usuario diferente."
+
+#: practice/forms.py:28
+msgid "Please use a different email address."
+msgstr "Por favor use una dirección de email diferente."
+
+#: practice/forms.py:32
+msgid "About me"
+msgstr "Acerca de mí"
+
+#: practice/forms.py:33 practice/forms.py:47
+msgid "Submit"
+msgstr "Enviar"
+
+#: practice/forms.py:46
+msgid "Say something"
+msgstr "Dí algo"
+
+#: practice/forms.py:51 practice/forms.py:56
+msgid "Request Password Reset"
+msgstr "Pedir una nueva contraseña"
+
+#: practice/routes.py:32
+msgid "Your post is now live!"
+msgstr "¡Tu artículo ha sido publicado!"
+
+#: practice/routes.py:52
+msgid "Invalid username or password"
+msgstr "Nombre de usuario o contraseña inválidos"
+
+#: practice/routes.py:71
+msgid "You have been successfully logged out."
+msgstr "Se ha cerrado la sesión correctamente."
+
+#: practice/routes.py:78
+msgid "Congratulations, you are now a registered user!"
+msgstr "¡Felicitaciones, ya eres un usuario registrado!"
+
+#: practice/routes.py:104
+msgid "Your changes have been saved."
+msgstr "Tus cambios han sido salvados."
+
+#: practice/routes.py:120 practice/routes.py:136
+#, python-format
+msgid "User %(username)s not found."
+msgstr "El usuario %(username)s no ha sido encontrado."
+
+#: practice/routes.py:123
+msgid "You cannot follow yourself!"
+msgstr "¡No te puedes seguir a tí mismo!"
+
+#: practice/routes.py:127
+#, python-format
+msgid "You are following %(username)s!"
+msgstr "¡Ahora estás siguiendo a %(username)s!"
+
+#: practice/routes.py:139
+msgid "You cannot unfollow yourself!"
+msgstr "¡No te puedes dejar de seguir a tí mismo!"
+
+#: practice/routes.py:143
+#, python-format
+msgid "You are not following %(username)s."
+msgstr "No estás siguiendo a %(username)s."
+
+#: practice/routes.py:169
+msgid "Check your email for the instructions to reset your password"
+msgstr "Busca en tu email las instrucciones para crear una nueva contraseña"
+
+#: practice/routes.py:184
+msgid "Your password has been reset."
+msgstr "Tu contraseña ha sido cambiada."
+
+#: practice/routes.py:109 practice/templates/edit_profile.html:5
+msgid "Edit Profile"
+msgstr "Editar Perfil"
+
+#: practice/templates/_post.html:14
+#, python-format
+msgid "%(username)s said %(when)s"
+msgstr "%(username)s dijo %(when)s"
+
+#: practice/templates/404.html:4
+msgid "File Not Found"
+msgstr "Página No Encontrada"
+
+#: practice/templates/404.html:5 practice/templates/500.html:6
+msgid "Back"
+msgstr "Atrás"
+
+#: practice/templates/500.html:4
+msgid "An unexpected error has occurred"
+msgstr "Ha ocurrido un error inesperado"
+
+#: practice/templates/500.html:5
+msgid "The administrator has been notified.  Apologies for any inconvenience!"
+msgstr "El administrador ha sido notificado. ¡Lamentamos la inconveniencia!"
+
+#: practice/templates/base.html:4
+msgid "Welcome to Max Power"
+msgstr "Bienvenido a Max Power"
+
+#: practice/templates/base.html:21
+msgid "Home"
+msgstr "Inicio"
+
+#: practice/templates/base.html:22
+msgid "Explore"
+msgstr "Explorar"
+
+#: practice/templates/base.html:26
+msgid "Login"
+msgstr "Ingresar"
+
+#: practice/templates/base.html:28
+msgid "Profile"
+msgstr "Perfil"
+
+#: practice/templates/base.html:29
+msgid "Logout"
+msgstr "Salir"
+
+#: practice/templates/index.html:5
+#, python-format
+msgid "Hi, %(username)s!"
+msgstr "¡Hola, %(username)s!"
+
+#: practice/templates/index.html:17 practice/templates/user.html:42
+msgid "Newer posts"
+msgstr "Artículos siguientes"
+
+#: practice/templates/index.html:22 practice/templates/user.html:47
+msgid "Older posts"
+msgstr "Artículos previos"
+
+#: practice/templates/login.html:12
+msgid "New User?"
+msgstr "¿Usuario Nuevo?"
+
+#: practice/templates/login.html:12
+msgid "Click to Register!"
+msgstr "¡Haz click aquí para registrarte!"
+
+#: practice/templates/login.html:14
+msgid "Forgot Your Password?"
+msgstr "¿Te olvidaste tu contraseña?"
+
+#: practice/templates/login.html:15
+msgid "Click here to Reset :-]"
+msgstr "Haz click aquí para pedir una nueva :-]"
+
+#: practice/templates/reset_password.html:5
+msgid "Reset Your Password"
+msgstr "Nueva Contraseña"
+
+#: practice/templates/reset_password_request.html:5
+msgid "Reset Password"
+msgstr "Nueva Contraseña"
+
+#: practice/templates/user.html:8
+msgid "User"
+msgstr "Usuario"
+
+#: practice/templates/user.html:11
+msgid "Last seen on"
+msgstr "Última visita"
+
+#: practice/templates/user.html:13
+#, python-format
+msgid "%(count)d followers"
+msgstr "%(count)d seguidores"
+
+#: practice/templates/user.html:13
+#, python-format
+msgid "%(count)d following"
+msgstr "siguiendo a %(count)d"
+
+#: practice/templates/user.html:15
+msgid "Edit your profile"
+msgstr "Editar tu perfil"
+
+#: practice/templates/user.html:20
+msgid "Follow"
+msgstr "Seguir"
+
+#: practice/templates/user.html:27
+msgid "Unfollow"
+msgstr "Dejar de seguir"
+
+#: practice/templates/search.html:4
+msgid "Search Results"
+msgstr "Resultados de Búsqueda"
+
+#: practice/templates/search.html:12
+msgid "Previous results"
+msgstr "Resultados previos"
+
+#: practice/templates/search.html:17
+msgid "Next results"
+msgstr "Resultados próximos"
